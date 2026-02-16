@@ -21,6 +21,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-	    - name: "mostrar mensaje" 
-	      run: echo "hola mundo"   
+      - uses: actions/checkout@v4
+      - name: "mostrar mensaje" 
+        run: echo "hola mundo"   
 	      
